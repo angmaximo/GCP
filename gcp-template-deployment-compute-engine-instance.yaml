@@ -18,6 +18,6 @@ resources:
         # The format of the sourceImage URL is: https://www.googleapis.com/compute/v1/projects/[IMAGE_PROJECT]/global/images/family/[FAMILY_NAME]
         sourceImage: https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/family/debian-9
     # Replace [MY_PROJECT] with your project ID
-	# Replace [MY-VPC-NETWORK-NAME] with your VPC Network
+    # Replace [MY-VPC-NETWORK-NAME] with your VPC Network
     networkInterfaces:
     - network: https://www.googleapis.com/compute/v1/projects/[MY_PROJECT]/global/networks/[MY-VPC-NETWORK-NAME]
